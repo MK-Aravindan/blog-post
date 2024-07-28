@@ -1,0 +1,22 @@
+.welcome-container {
+  position: fixed;
+  top: -2px;
+  left: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+  transition: transform 0.3s ease-out;
+}
+
+.welcome-container h1 {
+  font-weight: 1000;
+}
+
+.visible {
+  transform: translateY(0);
+}
+
+.hidden {
+  transform: translateY(-100%);
+}
